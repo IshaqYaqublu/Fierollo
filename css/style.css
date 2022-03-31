@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Indie+Flower&family=Jost&family=Montserrat:wght@200&family=Red+Hat+Mono:wght@300&display=swap");
+body {
+  font-family: 'BhuTuka Expanded One', cursive;
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Jost', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Red Hat Mono', monospace;
+}
+
+@media (max-width: 768px) {
+  header .h-right {
+    display: none;
+  }
+  header .h .header-mobile {
+    display: block;
+  }
+  .second-mobile {
+    display: block !important;
+  }
+  .second {
+    display: none !important;
+  }
+  .fourth .fourth-mobile {
+    display: block !important;
+  }
+  .fourth .fourth-windows {
+    display: none !important;
+    width: 100%;
+    background-size: cover;
+  }
+  .fifth .fourth-windows {
+    display: none;
+  }
+}
+
+header img {
+  width: 50%;
+}
+
+header ul {
+  height: 70px;
+  margin: 0;
+}
+
+header li {
+  margin-left: 50px;
+}
+
+header .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header a {
+  color: black;
+}
+
+.header-mobile {
+  display: none;
+}
+
+.First {
+  background: url(/Photos/h3-slider-background.jpg);
+  height: 500px;
+  width: 100%;
+  -webkit-animation: first 5s infinite alternate;
+          animation: first 5s infinite alternate;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.First p {
+  width: 90%;
+}
+
+.second {
+  display: block;
+}
+
+.second a {
+  margin-right: 30px;
+  font-size: 13px;
+  color: black;
+}
+
+.second-mobile {
+  display: none;
+}
+
+.second-mobile a {
+  color: black;
+}
+
+.third .row .col-lg-3 {
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.third .row .col-lg-3:hover {
+  -webkit-transition: .1s;
+  transition: .1s;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.third img {
+  width: 100%;
+  -webkit-transition: .2s;
+  transition: .2s;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.third img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.third p {
+  color: silver;
+}
+
+.fourth {
+  background-color: #E3E1DE;
+  font-family: 'Jost', sans-serif;
+}
+
+.fourth .row .fourth-mobile {
+  display: none;
+}
+
+.fourth .row .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.fourth .row .right h1 {
+  font-size: 55px;
+}
+
+.fourth .row .right p {
+  font-size: 21px;
+}
+
+.fourth .row .right i {
+  color: #ff0000;
+  margin: 10px 0;
+}
+
+.fourth .row .right i span {
+  font-size: 17px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #363636;
+}
+
+.fifth {
+  text-align: center;
+}
+
+.fifth .fifth-mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.fifth .fifth-mobile h1 {
+  color: #ff0000;
+}
+
+.fifth .fifth-mobile p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0 350px;
+}
+/*# sourceMappingURL=style.css.map */
